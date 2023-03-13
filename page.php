@@ -8,6 +8,7 @@ $Link5 = 'index5.php';
 $Link6 = 'index6.php';
 $Link7 = 'index7.php';
 $Link8 = 'index8.php';
+$Link9 = 'index8.php';
 
 ?>
 <!doctype html>
@@ -46,6 +47,9 @@ $Link8 = 'index8.php';
     <br>
     <br>
     <a href="<?= $Link8 ?>">Упражнение №8</a>
+    <br>
+    <br>
+    <a href="<?= $Link9 ?>">Упражнение №9</a>
 
 
 
