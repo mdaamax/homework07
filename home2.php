@@ -1,10 +1,43 @@
 <?php
 $Link13 = 'page.php'; //для перехода на титульную страницу
 
-$arr = [1,2,3,4,5,6,7,8,9];
-$separator = "-";
-echo implode($separator,$arr)
+$arr = [
 
+    [
+
+        'name' => 'Стул 1',
+
+        'price' => 20,
+
+        'category' => 1,
+
+    ],
+
+    [
+
+        'name' => 'Стул 2',
+
+        'price' => 210,
+
+        'category' => 2,
+
+    ],
+
+    [
+
+        'name' => 'Стул 3',
+
+        'price' => 15,
+
+        'category' => 2,
+
+    ],
+
+];
+usort($arr, function ($a, $b){
+    return $a['price'] <=> $b['price'];
+});
+var_dump($arr);
 ?>
 
 <!doctype html>
@@ -22,4 +55,3 @@ echo implode($separator,$arr)
 <a href="<?= $Link13 ?>">Ссылка для перехода на страницу с упраждениями</a>
 </body>
 </html>
-

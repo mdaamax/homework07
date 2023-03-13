@@ -8,7 +8,11 @@ $Link5 = 'index5.php';
 $Link6 = 'index6.php';
 $Link7 = 'index7.php';
 $Link8 = 'index8.php';
-$Link9 = 'index8.php';
+$Link9 = 'index9.php';
+$Link10 = 'home1.php';
+$Link11 = 'home2.php';
+$Link12 = 'home3.php';
+$Link13 = 'page.php'; //для перехода на титульную страницу
 
 ?>
 <!doctype html>
@@ -50,6 +54,16 @@ $Link9 = 'index8.php';
     <br>
     <br>
     <a href="<?= $Link9 ?>">Упражнение №9</a>
+    <br>
+    <br>
+    <a href="<?= $Link10 ?>">Домашняя работа №1</a>
+    <br>
+    <br>
+    <a href="<?= $Link11 ?>">Домашняя работа №2</a>
+    <br>
+    <br>
+    <a href="<?= $Link12 ?>">Домашняя работа №3</a>
+
 
 
 

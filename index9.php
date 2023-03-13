@@ -1,9 +1,8 @@
 <?php
 $Link13 = 'page.php'; //для перехода на титульную страницу
 
-$arr = [1,2,3,4,5,6,7,8,9];
-$separator = "-";
-echo implode($separator,$arr)
+$arr = ["a","b","c","b","a"];
+var_dump(array_count_values($arr));
 
 ?>
 
@@ -22,4 +21,3 @@ echo implode($separator,$arr)
 <a href="<?= $Link13 ?>">Ссылка для перехода на страницу с упраждениями</a>
 </body>
 </html>
-
