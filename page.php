@@ -1,5 +1,4 @@
 <?php
-$result = 2 + 2; # поменять
 $Link1 = 'index.php';
 $Link2 = 'index2.php';
 $Link3 = 'index3.php';
